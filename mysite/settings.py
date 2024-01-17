@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'polls.apps.PollsConfig', # 앱 등록 개념! 앱은 끼고빼고 가능!
 ]
 
 MIDDLEWARE = [
