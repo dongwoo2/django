@@ -2,6 +2,7 @@ from django.urls import path
 
 from . import views
 
+app_name = "polls" #url 해석 시 사용할 namespace 이름
 urlpatterns = [
     path("", views.index, name="index"),
     # ex: /polls/5/
